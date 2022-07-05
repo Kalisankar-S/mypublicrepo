@@ -5,7 +5,7 @@ import pandas as pd
 from sql_queries import *
 
 """
-Function to load artist and song tables by fetching data from songs files
+Function to load artist and song tables by fetching data from song files
 """
 def process_song_file(cur, filepath):
     # open song file
